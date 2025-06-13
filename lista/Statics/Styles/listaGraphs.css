@@ -1,0 +1,54 @@
+.contenedorG{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10%;
+}
+
+.Btn{
+    width: 10%;
+    height: 5vh;
+    font-size: 100%;
+    margin: 1%;
+    border: transparent;
+    border-radius: 5% 5% 5% 5%;
+    background-color: #d64f88;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    width: max-content;
+}
+
+.Btn:hover{
+    color: #ffffff;
+    background-color: #9b20eb;
+}
+
+.contenedorT{
+    width: 100%;
+    min-height: 50vh;
+
+    background-color: #36a0e0;
+    border: 1vh solid #3888b9;
+    border-radius: 2% 2% 2% 2% ;
+    gap: 5%;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.tarea{
+    width: 25%;
+    height: 75%;
+    background-color: #e35290;
+    border: 1vh solid #992a5a;
+    margin:1vw 1vw 1vw 1vw;
+    border-radius: 5% 5% 5% 5%;
+
+    justify-content: center;
+    flex-direction: column;
+
+}
