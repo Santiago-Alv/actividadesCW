@@ -77,7 +77,7 @@ mainForm.addEventListener("submit" , e =>{
         inputCom.placeholder = "Escribe tus comentarios aqui...";
     }
 /////////////////////////////////////////////////////////////////////// Prueba creo que es INCESECARIO
-/*    let c = 3;
+/*  let c = 3;
     let verify = new Array(3);
     for(i=0;i < 3;i++){
        verify[i]= inputFile.value[inputFile.value.length-(c--)]; 
@@ -90,6 +90,14 @@ mainForm.addEventListener("submit" , e =>{
     }else{
         console.log("si es png");
     }
-*/
-
+*/  
+    let a,b;
+    let result;
+    a = Math.random()
+    
+    while(true){
+        if(result.value != a+b){
+            
+        }
+    }
 });

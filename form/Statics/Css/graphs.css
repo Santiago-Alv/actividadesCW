@@ -31,19 +31,16 @@ body{
     transition: .5s;
     cursor: pointer;
 }
-p{
-    color: red;
-    display: none;
-    padding: 0;
-    border: 0;
-    margin: 0;
-}
+
 .submitBtn:hover{
     background-color: rgb(154, 98, 211);
+    width: 30%;
+    height: 10%;
 }
 
 input{
     border: 2 solid rgb(175, 175, 175);
+    transition: 1s;
     cursor: pointer;
 }
 
@@ -58,4 +55,9 @@ input[type="text"]{
 
     font-size: 100%;
 
+}
+
+input[type="text"]:hover{
+    width: 105%;
+    height: 10%;
 }
