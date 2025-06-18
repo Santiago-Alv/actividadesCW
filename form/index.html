@@ -8,12 +8,68 @@
     </head>
     <body>
         <section class="contenedor">
-            <h2>Formulario de Ingreso</h2>
+            <h1>Formulario Completo</h1>
 
-            <form>
-                <label for="name">Introduce tu Nombre:</label>
-                    <input type="text" name="name" id="name" placeholder="Nombre Completo" required>
+            <form id="mainForm">
+                <label for="name">Nombre Completo:</label>
+                <br>
+                    <input type="text" name="name" id="name" placeholder="Introduce tu Nombre" required>
+                <br><br>
 
+                <label for="age">Edad:</label>
+                <br>
+                    <input type="text" name="age" id="age" placeholder="Ingresa tu Edad" required>
+                <br><br>
+
+                <label for="cp">Código Postal:</label>
+                <br>
+                    <input type="text" name="cp" id="cp" placeholder="Ingrese tu codigo postal: xxxxx" required>
+                <br><br>
+
+                <label for="Genero">Género</label>
+                <br>
+                    <input type="radio" name="Genero" id="ms" value="ms" checked>
+                    <label>Masculino</label>
+                    <input type="radio" name="Genero" id="fem" value="fem">
+                    <label>Femenino</label>
+                    <input type="radio" name="Genero" id="otro" value="otro">
+                    <label>Otro</label>
+                <br><br>
+
+                <label for="interes">Interes (selecciona todos los que apliquen):</label>
+                <br><br>
+                    <input type="checkbox" name="interes" id="tec" value="tec">
+                    <label>Tecnologia</label>
+                    <input type="checkbox" name="interes" id="dep" value="dep">
+                    <label>Deportes</label>
+                    <input type="checkbox" name="interes" id="music" value="music">
+                    <label>Música</label>
+                    <input type="checkbox" name="interes" id="art" value="art">
+                    <label>Arte</label>
+                <br><br>    
+
+                <label for="pais">País:</label>
+                <br>
+                    <select name="pais" id="pais" placeholder="Selecciona tu país..." required>
+                        <option value="mex">Mexico</option>
+                        <option value="usa">Usa</option>
+                        <option value="cad">Canda</option>
+                        <option value="germ">Alemania</option>
+                        <option value="france">Francia</option>
+                    </select>
+                <br><br>
+
+                <label for="com">Comenatrios adicionales:</label>
+                <br>
+                    <input type="text" name="com" id="com" placeholder="Escribe tus comentarios aqui...">
+                <br><br>
+
+                <label for="img">Subir imagen:</label>
+                <br>
+                    <input type="file" name="img" id="img"  accept="image/png" accept="image/jpg">
+                <br><br>
+
+                <button type="submit" class="submitBtn">Enviar Formulario</button>
             </form>
         </section>
 
