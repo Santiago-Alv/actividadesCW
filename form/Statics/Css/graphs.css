@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(34, 125, 230);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contenedor{
+    width: 50%;
+    height: 75vh;
+
+    background-color: rgb(224, 224, 222);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
